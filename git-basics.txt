@@ -1,0 +1,42 @@
+Git Basics - Runbook
+
+How to create an SSH Key for Github 
+
+1. Sign in/ create github account 
+
+2. Open the CL  & Run:
+
+(sudo) ssh-keygen -o   // this will generate a private/public rsa key
+
+// it will return "Enter file in whiche to save the key" press enter & this'll create & save key file /root/.ssh/id_rsa
+to created directory '/root/.ssh'   
+
+//press enter 2x bc no passphrase. Return will include where the public key is saved: /root/.ssh/id_rsa.pub.
+
+sudo cat /root/.ssh/id_rsa.pub
+
+copy the result 
+
+//head to Settings/SSH and GPG Keys/ New SSH Key: Give it a new title. 
+// now git hub can  identify you!
+How to create a repo for github & publish 
+
+1. Sign in to Github & click New Repo, add name, make public/private. DO NOT initialize with readme.md- this'll added later. Create new repo
+
+2. Open CL and create new directory:
+
+sudo mkdir new-repo
+
+sudo git init new-repo //initialize git
+
+cd new-repo
+
+sudo touch README.md // create file
+
+sudo git commit -m "add README to initial commit" //stage it to git
+
+sudo git remote add origin git@github.com:meredithw22/New-repo.git  // path for repo
+//this is for the first commit 
+
+sudo push --set-upstream origin main //push to github
+
