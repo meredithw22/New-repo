@@ -27,16 +27,22 @@ How to create a repo for github & publish
 
 sudo mkdir new-repo
 
-sudo git init new-repo //initialize git
-
 cd new-repo
+
+sudo git init //initialize git in new-repo directory
 
 sudo touch README.md // create file
 
+sudo git add README.md //stage file to git
+
 sudo git commit -m "add README to initial commit" //stage it to git
+
+sudo git branch -M main
 
 sudo git remote add origin git@github.com:meredithw22/New-repo.git  // path for repo
 //this is for the first commit 
 
 sudo push --set-upstream origin main //push to github
+//or//
+sudo git push -u origin main 
 
