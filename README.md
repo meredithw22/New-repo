@@ -1,6 +1,6 @@
 # practise repo
 
-##workinng with the markdown
+#working with the markdown
 
 Adding an image to render in the markdown
 
@@ -28,5 +28,7 @@ paragraph with text
 
 *italic*  **bold**
 
+# KasloKare Mockup
+App mockup for KasloKare
 [KasloKare mockup]
 ![image](https://user-images.githubusercontent.com/95877939/163008492-74b49995-305c-4998-aec3-0b1b3bc8cc2a.png)
