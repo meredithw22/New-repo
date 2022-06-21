@@ -21,7 +21,7 @@ paragraph with text
 > blockquote
 
 
-| heading | heder | head |
+| heading | header | head |
 | --- | --- | ---|
 | content | content | content |
 
@@ -29,4 +29,4 @@ paragraph with text
 *italic*  **bold**
 
 [KasloKare mockup]
-(https://user-images.githubusercontent.com/95877939/163008492-74b49995-305c-4998-aec3-0b1b3bc8cc2a.png)
+![image](https://user-images.githubusercontent.com/95877939/163008492-74b49995-305c-4998-aec3-0b1b3bc8cc2a.png)
